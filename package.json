@@ -8,7 +8,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "graphql:deploy-prod": "sanity graphql deploy --dataset production"
   },
   "keywords": [
     "sanity"
@@ -24,6 +25,7 @@
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0",
+    "react-icons": "^4.3.1",
     "styled-components": "^5.3.3"
   },
   "repository": {
