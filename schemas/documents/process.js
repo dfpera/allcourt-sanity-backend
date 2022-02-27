@@ -35,9 +35,9 @@ export default {
       type: 'text',
     },
     {
-      name: 'content',
-      title: 'Content',
+      name: 'contentBlocks',
+      title: 'Content Blocks',
       type: 'contentBlocks',
-    },
+    }
   ]
 }
