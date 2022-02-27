@@ -20,7 +20,7 @@ export default {
           type: 'page'
         },
         {
-          type: 'blog'
+          type: 'process'
         }
       ]
     },

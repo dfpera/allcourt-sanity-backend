@@ -7,8 +7,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 /**
  * Documents
  */
-import blog from './documents/blog'
 import page from './documents/page'
+import process from './documents/process'
 import settings from './documents/settings'
 
 /**
@@ -40,8 +40,8 @@ export default createSchema({
     /**
      * Documents
      */
-    blog,
     page,
+    process,
     settings,
 
     /**
