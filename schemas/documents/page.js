@@ -24,6 +24,12 @@ export default {
       type: 'string'
     },
     {
+      name: 'headerCopy',
+      title: 'Header Copy',
+      type: 'array',
+      of: [{type: 'block'}]
+    },
+    {
       name: 'contentBlocks',
       title: 'Content Blocks',
       type: 'contentBlocks',

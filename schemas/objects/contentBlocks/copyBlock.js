@@ -4,6 +4,16 @@ export default {
   type: 'object',
   fields: [
     {
+      name: 'title',
+      title: 'Title',
+      type: 'string',
+    },
+    {
+      name: 'subtitle',
+      title: 'Subtitle',
+      type: 'string',
+    },
+    {
       name: 'content',
       title: 'Content',
       type: 'array',
@@ -11,9 +21,14 @@ export default {
     }
   ],
   preview: {
-    prepare({}) {
+    select: {
+      title: 'title',
+      subtitle: 'subtitle'
+    },
+    prepare({title, subtitle}) {
       return {
-        title: `[Copy]`
+        title: `[Copy] ${title ?? ''}`,
+        subtitle: subtitle
       }
     }
   }
